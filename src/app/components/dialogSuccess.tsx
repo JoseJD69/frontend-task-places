@@ -34,7 +34,7 @@ export default function DialogSuccess(props: DialogSuccessProps) {
         </div>
         <div className="flex justify-content-center align-items-center">
             <div className="flex col-7">
-                <Button className="w-full bg-pink-400" rounded label="Understood"/>
+                <Button className="w-full bg-pink-400" rounded label="Understood" onClick={() => setVisible(false)}/>
             </div>
         </div>
     </Dialog>

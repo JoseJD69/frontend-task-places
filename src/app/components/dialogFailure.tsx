@@ -13,20 +13,20 @@ export default function DialogFailure(props: DialogFailureProps) {
                    pt={{root: {className: 'border-round-sm'}}}>
         <div className="grid justify-content-center align-items-center align-content-center">
             <p className="p-0 m-0 text-3xl text-center font-bold">
-                Address updated
+                Out of Delivery Area
             </p>
             <p className="m-4 text-center text-lg font-semibold">
-                New address added to your account
+                {/* eslint-disable-next-line react/no-unescaped-entities */}
+                "Wherever I go, there I am."
             </p>
             <p className="m-1 text-center font-medium text-lg">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                do eiusmod tempor incididunt ut labore et dolore magna
-                aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                u llameo.
+                Sadly, this quote is not true for us. In other words, we are
+                not operating in your area (yet), but things change
+                everyday.
 
             </p>
             <p className="p-2 text-lg font-medium text-center">
-                Nisi ut aliquip ex ea commodo consequat.
+                Sign up to our newsletter to get notified.
             </p>
         </div>
         <div className="flex flex-column">
@@ -34,7 +34,7 @@ export default function DialogFailure(props: DialogFailureProps) {
         </div>
         <div className="flex justify-content-center align-items-center">
             <div className="flex col-7">
-                <Button className="w-full bg-pink-400" rounded label="Understood"/>
+                <Button className="w-full bg-pink-400" rounded label="Understood" onClick={() => setVisible(false)}/>
             </div>
         </div>
     </Dialog>
