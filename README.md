@@ -3,7 +3,15 @@ with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/
 
 ## Getting Started
 
-First, run the development server:
+First, install the dependencies:
+
+```bash
+npm install
+# or
+yarn install
+```
+
+Second, run the development server:
 
 ```bash
 npm run dev
@@ -25,8 +33,6 @@ NEXT_PUBLIC_GOOGLE_PLACE_DETAIL_API=https://maps.googleapis.com/maps/api/place/d
 ```
 
 In addition, you can see the .env.example file for reference.
-
-
 
 ## Comments
 
