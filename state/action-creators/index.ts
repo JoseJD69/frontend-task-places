@@ -25,4 +25,13 @@ export const getZipCodes = (codes: any) => {
         });
     }
 }
+export const setLoading = (loading: boolean) => {
+    return async (dispatch: Dispatch<any>) => {
+        dispatch({
+            type: ActionType.SET_LOADING,
+            payload: loading
+        });
+    }
+}
+
 

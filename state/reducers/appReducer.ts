@@ -4,7 +4,7 @@ import {PlaceDetail, Prediction} from "../../api/GoogleAPI"
 interface AppState {
     places: Prediction[];
     placeDetail: PlaceDetail;
-    zipCodes: [];
+    zipCodes: string[];
     loading: boolean;
 }
 
