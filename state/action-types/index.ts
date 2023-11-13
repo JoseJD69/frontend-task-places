@@ -1,4 +1,6 @@
 export enum ActionType {
-    SEARCH_PLACES = 'search_places',
-    SET_LOADING = 'set_loading',
+    SEARCH_PLACES = 'SEARCH_PLACES',
+    SET_LOADING = 'SET_LOADING',
+    SEARCH_ZIP_CODES = 'SEARCH_ZIP_CODES',
+    GET_PLACE_DETAIL = 'GET_PLACE_DETAIL',
 }
